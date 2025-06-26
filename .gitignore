@@ -40,4 +40,5 @@ node_modules/
 media/
 theme/
 
-catalogo_urls.txt
+package-lock.json
+package.json
