@@ -1,0 +1,68 @@
+Brand
+Model
+Codename
+Device Category
+Platform
+Operating System
+Resolution
+Camera Placement
+Camera Image Sensor
+Image Sensor Format
+Image Sensor Pixel Size
+Camera Resolution
+Number of effective pixels
+Aperture (W)
+Zoom
+Focus
+Min. Equiv. Focal Length
+Recordable Image Formats
+Video Recording
+Recordable Video Formats
+Flash
+Camera Extra Functions
+Aux. Camera Image Sensor
+Aux. Cam. Image Sensor Format
+Aux. Cam. Image Sensor Pixel Size
+Aux. Camera Number of Pixels
+Aux. Camera Aperture (W)
+Aux. Cam. Min. Equiv. Focal Length
+Aux. Camera Focus
+Aux. Camera Extra Functions
+Aux. 2 Camera Image Sensor
+Aux. 2 Cam. Image Sensor Pixel Size
+Aux. 2 Cam. Image Sensor Format
+Aux. 2 Camera Number of Pixels
+Aux. 2 Camera Aperture (W)
+Aux. 2 Cam. Min. Equiv. Focal Length
+Aux. 2 Camera Focus
+Aux. 2 Camera Extra Functions
+Aux. 3 Camera Image Sensor
+Aux. 3 Cam. Image Sensor Pixel Size
+Aux. 3 Cam. Image Sensor Format
+Aux. 3 Camera Number of Pixels
+Aux. 3 Camera Aperture (W)
+Aux. 3 Cam. Min. Equiv. Focal Length
+Aux. 3 Camera Focus
+Aux. 3 Camera Extra Functions
+Aux. 4 Camera Image Sensor
+Aux. 4 Cam. Image Sensor Pixel Size
+Aux. 4 Cam. Image Sensor Format
+Aux. 4 Camera Number of Pixels
+Aux. 4 Camera Aperture (W)
+Aux. 4 Cam. Min. Equiv. Focal Length
+Aux. 4 Camera Focus
+Aux. 4 Camera Extra Functions
+Secondary Camera Placement
+Secondary Camera Sensor
+Secondary Image Sensor Format
+Secondary Image Sensor Pixel Size
+Secondary Camera Resolution
+Secondary Camera Number of pixels
+Secondary Aperture (W)
+Secondary Min. Equiv. Focal Length
+Secondary Recordable Image Formats
+Secondary Video Recording
+Secondary Recordable Video Formats
+Secondary Camera Extra Functions
+Sec. Aux. Cam. Image Sensor
+Sec. Aux. 2 Cam. Image Sensor

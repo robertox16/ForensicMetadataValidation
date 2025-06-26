@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Django site{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'admin/css/base.css' %}">
+    {% block extrastyle %}{% endblock %}
+</head>
+<body class="app__body">
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo">
+                <a href="{% url 'admin:index' %}">
+                    <img src="{% static 'admin/img/django.svg' %}" alt="Django">
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="content">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Django 2025</p>
+    </footer>
+</body>
+</html>

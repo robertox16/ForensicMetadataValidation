@@ -1,0 +1,6 @@
+Django
+django-compressor
+django-tailwind
+django-tailwind[reload]
+beautifulsoup4
+Pillow
