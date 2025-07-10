@@ -309,6 +309,35 @@
               </div>
             </div>
           </div>
+
+          <!-- HASHES -->
+          <div class="mb-8 p-6 bg-gray-800 rounded-lg">
+            <h2 class="text-xl text-white mb-4 text-center">
+              Codificaciones: {{ item.filename }}
+            </h2>
+
+            <div class="overflow-x-auto">
+              <table class="min-w-full text-sm text-gray-300">
+                <thead>
+                  <tr class="bg-gray-700 text-left">
+                    <th class="py-2 px-4 font-semibold">Algoritmo</th>
+                    <th class="py-2 px-4 font-semibold">Hash</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-600">
+                  {% for name, value in item.hashes.items %}
+                    <tr>
+                      <td class="py-2 px-4 font-medium text-white">{{ name }}</td>
+                      <td class="py-2 px-4 font-mono break-all">{{ value }}</td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+
+
          
         {# ===== Selector de DISPOSITIVOS ordenados y agrupados ===== #}
         {% if item.grouped_devices %}

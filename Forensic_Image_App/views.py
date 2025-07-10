@@ -22,6 +22,8 @@ from .utils_exif import get_exif_data
 from .utils_compare import build_field_keywords, extract_relevant_exif
 from .utils_compare import compare_exif_to_device, compare_physical_vs_exif_dimensions,compare_exif_vs_file_dates, check_subsecond_consistency, check_aperture_consistency
 from .generate_ela import generate_ela_datauris
+from .hash import generate_hashes
+
 
 from fractions import Fraction
 
@@ -83,7 +85,14 @@ def analizar_imagen(request):
             try:
                 ela_dict = generate_ela_datauris(filepath)
             except Exception as e:
-                ela_dict = {} 
+                ela_dict = {}
+
+            # Hashes
+            try:
+                hash_dict = generate_hashes(filepath)
+            except Exception:
+                hash_dict = {}
+ 
 
 
             try:
@@ -266,7 +275,8 @@ def analizar_imagen(request):
             results_list.append({
                 "filename":          filename,
                 "data_uri":          data_uri,
-                "ela": ela_dict,
+                "ela":               ela_dict,
+                "hashes":            hash_dict,
                 "exif_fields":       exif_fields,
                 "model":             model_name,
                 "stripped_model":    stripped_model,
